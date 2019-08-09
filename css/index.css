@@ -260,3 +260,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page CSS */
+
+.info p {
+    width: 100%;
+}
+
+.about {
+    border-bottom: 1px dotted black;
+}
+
+.about h2 {
+    margin-left: 20px;
+}
+.about p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.group {
+    width: 48%;
+    margin-top: 40px;
+}
+
+.group h2 {
+    margin-top: 10px;
+}
+.group p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
