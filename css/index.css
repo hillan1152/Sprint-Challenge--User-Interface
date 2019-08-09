@@ -286,11 +286,13 @@ footer nav a {
     justify-content: center;
     justify-content: space-around;
     
+    
 }
 
 .group {
     width: 48%;
     margin-top: 40px;
+    border-bottom: 1px dotted black;
 }
 
 .group h2 {
@@ -303,9 +305,23 @@ footer nav a {
 
 button {
     margin-top: 10px;
+    margin-bottom: 25px;
     width: 30%;
     height: 35px;
     border-radius: 10px;
     border: 1px solid black;
 }
 
+.work {
+    margin-top: 40px;
+}
+
+.work h2 {
+    margin-left: 20px;
+}
+
+.work p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
